@@ -15,3 +15,10 @@ fyi,integer,string class has already implemented comparable interface. so we can
 
 youtube:  https://www.youtube.com/watch?v=oAp4GYprVHM
 
+
+3. plus/minus-equal operator----- +=/-=
+  updates by adding/subtracting the value on the right 
+  (easy to mix up: =+ & =-, only act as 正负号)
+4.  An operation between an integer and another integer will always result in an integer value (it cuts off all decimals).
+
+
