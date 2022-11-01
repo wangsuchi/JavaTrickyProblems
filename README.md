@@ -19,6 +19,16 @@ youtube:  https://www.youtube.com/watch?v=oAp4GYprVHM
 3. plus/minus-equal operator----- +=/-=
   updates by adding/subtracting the value on the right 
   (easy to mix up: =+ & =-, only act as 正负号)
+  
 4.  An operation between an integer and another integer will always result in an integer value (it cuts off all decimals).
 
+5. static vs final static modifier
+(1)static:  
+Whenever we declare variable as static, then at the class level a single variable is created which is shared with the objects. Any change in that static variable reflect to the other objects operations. If we won’t initialize a static variable, then by default JVM will provide a default value for static variable.
+(2)final static:
+Declaring them as static final will help you to create a CONSTANT. Only one copy of variable exists which can’t be reinitialize.
+Initialization of variable Mandatory(compulsory): we have to perform initialization explicitly whether we are using it or not and JVM won’t provide any default value for the final static variable.
 
+https://www.geeksforgeeks.org/final-static-variable-java/
+
+6.
